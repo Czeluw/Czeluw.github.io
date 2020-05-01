@@ -1,0 +1,1 @@
+//document.getElementById('upTime').textContent = "Last Updated: " + document.lastModified;

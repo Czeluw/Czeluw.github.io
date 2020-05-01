@@ -1,0 +1,25 @@
+img {
+    float: right;
+}
+
+footer {
+    background-color: rgba(185, 143, 16, 0.822);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#homeTitle {
+    background-color: rgba(185, 143, 16, 0.822); 
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.divLine {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
