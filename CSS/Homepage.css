@@ -1,6 +1,3 @@
-body{
-    background-color: rgba(47, 30, 110, 0.048);
-}
 img {
     float: right;
     width: 25%;
@@ -17,6 +14,7 @@ footer {
     left:5px;
     right:5px;
     bottom:10px;
+    color:rgba(19, 19, 19, 0.63)
     
 }
 

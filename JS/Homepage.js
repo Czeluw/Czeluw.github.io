@@ -1,1 +1,2 @@
-document.getElementById("upTime").innerHTML = document.lastModified;
+let lastDate = document.lastModified;
+document.getElementById("upTime").innerHTML = lastDate;
