@@ -8,8 +8,51 @@ header {
 }
 
 body{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(50, 8, 99, 0.158);
+}
+
+main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px 500px;
+}
+
+section{
+    background-color: rgba(50, 8, 99, 0.288);
+    margin:10px;
+    border-radius: 7px;
+    max-width: 450px;
+    overflow: auto;
+}
+
+img {
+    max-width: 95%;
+    width: 95%;
+}
+
+hr{
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 550px){
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        margin: 30px;
+    }
+    img{
+        max-width: 400px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 footer {
@@ -18,7 +61,6 @@ footer {
     justify-content: center;
     text-align: center;
     border-radius: 15px;
-    position: absolute;
     left:5px;
     right:5px;
     bottom:10px;
@@ -46,4 +88,8 @@ footer {
 .navbar .active{
     background-color: rgba(94, 55, 5, 0.596);
     color:white
+}
+
+h1,h2{
+    font-family: 'Montserrat Alternates', sans-serif;
 }
