@@ -1,12 +1,15 @@
+header {
+    background-color: rgba(48, 30, 110, 0.822); 
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color:rgba(255, 255, 255, 0.822)
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(50, 8, 99, 0.158);
-}
-
-img {
-    float: right;
-    width: 25%;
-    border-radius: 15px;
 }
 
 footer {
@@ -20,20 +23,16 @@ footer {
     right:5px;
     bottom:10px;
     color:rgba(19, 19, 19, 0.63)
+}
 
+img {
+    float: right;
+    width: 25%;
+    border-radius: 15px;
 }
 
 h2{
     font-family: 'Montserrat Alternates', sans-serif;
-}
-
-#homeTitle {
-    background-color: rgba(48, 30, 110, 0.822); 
-    padding: 10px;
-    border-radius: 15px;
-    text-align: center;
-    font-family: 'Courgette', cursive;
-    color:rgba(255, 255, 255, 0.822)
 }
 
 .divLine {

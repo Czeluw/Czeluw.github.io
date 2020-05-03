@@ -1,0 +1,49 @@
+header {
+    background-color: rgba(48, 30, 110, 0.822); 
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color:rgba(255, 255, 255, 0.822)
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(50, 8, 99, 0.158);
+}
+
+footer {
+    background-color: rgba(50, 8, 99, 0.233);
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    left:5px;
+    right:5px;
+    bottom:10px;
+    color:rgba(19, 19, 19, 0.63)
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(50, 8, 99, 0.158);
+    } 
+
+.navbar a{
+    color:whitesmoke;
+    float: left;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none; 
+    font-size: small;
+}
+
+.navbar a:hover{
+    background-color: rgba(50, 8, 99, 0.062);
+}
+
+.navbar .active{
+    background-color: rgba(94, 55, 5, 0.596);
+    color:white
+}
