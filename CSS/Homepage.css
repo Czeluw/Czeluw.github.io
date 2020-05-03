@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: rgba(50, 8, 99, 0.158);
 }
 
 img {
@@ -9,7 +10,7 @@ img {
 }
 
 footer {
-    background-color: rgba(50, 8, 99, 0.377);
+    background-color: rgba(50, 8, 99, 0.233);
     font-family: 'Montserrat Alternates', sans-serif;
     justify-content: center;
     text-align: center;
