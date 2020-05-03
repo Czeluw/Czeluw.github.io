@@ -12,19 +12,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@800&family=Josefin+Sans&display=swap');
     </style>
 
-    <script>
-        function updateTime() {
-          let time = document.getElementById('upTime').innerHTML = "Last Updated: " + document.lastModified;
-          return time;
-        }
-    </script>
 </head>
 
-<body onload="updateTime()"> 
+<body> 
+    <script src="JS/Homepage.js"></script>
     <header>
         <div id="homeTitle">
             <img src="Pics/11046760_1050636831617433_3754306203118786478_n (2).jpg" alt="The one and only">
-            <p><h1>Christian Gonzalez</h1></p>
+            <h1>Christian Gonzalez</h1>
         </div>
     </header>
 
@@ -42,10 +37,8 @@
     </main>
     
     <footer>
-        <div>
-            <h4>&copy; 2020 | Christian Gonzalez | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></h4>
-            <h6><p id="upTime"></p></h6> 
-        </div>
+            <h4>&copy; 2020 | Christian Gonzalez | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></h4><br>
+            Last updated: <span id="upTime"></span>
     </footer>
 </body>
 </html>
