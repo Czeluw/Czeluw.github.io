@@ -49,7 +49,6 @@ hr{
         max-width: 400px;
         width: 80%;
     }
-
 }
 
 @media screen and (min-width: 900px){
@@ -58,12 +57,12 @@ hr{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 500px;
     }
+}
     
 footer {
     background-color: rgba(50, 8, 99, 0.233);
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    clear: both;
     left:5px;
     right:5px;
     bottom:0px;
@@ -73,7 +72,7 @@ footer {
 .navbar {
     overflow: hidden;
     background-color: rgba(50, 8, 99, 0.158);
-    } 
+} 
 
 .navbar a{
     color:whitesmoke;
@@ -90,7 +89,7 @@ footer {
 
 .navbar .active{
     background-color: rgba(94, 55, 5, 0.596);
-    color:white
+    color:white;
 }
 
 h2{
