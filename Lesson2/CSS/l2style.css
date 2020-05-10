@@ -84,7 +84,7 @@ footer {
 }
 
 .navbar a:hover:not(.active){
-    background-color: rgba(50, 8, 99, 0.062);
+    background-color: rgba(50, 8, 99, 0.295);
 }
 
 .navbar .active{
