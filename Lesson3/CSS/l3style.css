@@ -30,9 +30,9 @@ footer {
     color:rgba(19, 19, 19, 0.63);
 }
 
-/*
+
 .navbar a:hover:not(.active){
-    ;
+    background-color: rgba(50, 8, 99, 0.295);
 }
 
 .navbar .active{
@@ -40,7 +40,6 @@ footer {
     background-color: rgba(94, 55, 5, 0.596);
     color:white;
 }
-*/
 
 .navbar {
     overflow: hidden;
@@ -56,6 +55,7 @@ footer {
     font-size: small;
 }
 
+/*
 .dropdown{
     float: left;
     overflow:hidden;
@@ -100,6 +100,7 @@ footer {
 .dropdown:hover .drop-links{
     display: block;
 }
+*/
 
 .subnav{
     background-color: #4a7c59;
