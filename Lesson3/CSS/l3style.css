@@ -180,3 +180,7 @@ h2, .typograph h4, .colorsch h4{
 .typograph{
     text-align: center;
 }
+
+p, li{
+    color:#4a7c59;
+ }
