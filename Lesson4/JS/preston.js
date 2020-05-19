@@ -1,6 +1,4 @@
-let lastDate = document.lastModified;
-document.getElementById("upTime").innerHTML = lastDate;
-
+//Toggle menu open-close
 var windowWidth = $(window).width();
 
 $("#nav-toggle").click(function () {
@@ -19,3 +17,34 @@ $(window).resize(function () {
         $("#nav ul").css("display","none");
     }
 });
+
+//custom date
+const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ];
+
+  const days = [
+    'Sunday',
+    'Monday',
+    'Tueday',
+    'Weday',
+    'Thuday',
+    'Friday',
+    'Satday'
+  ];
+
+const monthName = months[d.getMonth()];
+const dayName = days[d.getDay()];
+const formatted = `${dayName}, ${date} ${monthName} ${year}`;
+document.getElementById("upTime").innerHTML = formatted;
